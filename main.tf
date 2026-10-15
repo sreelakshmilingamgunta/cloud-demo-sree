@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
-  name     = "rg-devops-demo"
-  location = "Japan East"
+  name     = var.rg-name-workspace
+  location = "West US 3"
 
   tags = {
     Environment = "Dev"
