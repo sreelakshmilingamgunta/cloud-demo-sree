@@ -8,7 +8,7 @@ variable "client_secret" {
   type        = string
   sensitive   = true
 }
-variable "rg-name-workspace" {
+variable "rg-name" {
   description = "rg-name-workspace"
   type        = string
 }
