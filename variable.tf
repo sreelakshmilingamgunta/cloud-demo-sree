@@ -8,6 +8,10 @@ variable "client_secret" {
   type        = string
   sensitive   = true
 }
+variable "rg-name-workspace" {
+  description = "rg-name-workspace"
+  type        = string
+}
 
 variable "tenant_id" {
   description = "Azure Tenant ID"
