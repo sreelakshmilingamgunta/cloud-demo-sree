@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "example" {
-  name     = var.rg-name-workspace
+  name     = var.rg-name
   location = "West US 3"
 
   tags = {
